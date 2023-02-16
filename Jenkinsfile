@@ -20,7 +20,7 @@ pipeline {
     stage('Push') {
       steps {
         sh 'docker push shoaibhassan/jenkins-docker-hub'
-        sh 'echo "Push Complete"
+        sh 'echo "Push Complete"'
       }
     }
   }
